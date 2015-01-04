@@ -30,5 +30,5 @@ func GetApiKey() (string, error) {
 		return "", errors.New("Not Found API Key. Please Set ENV(ASANA_API_KEY) or Pit(app.asana.com:apikey).")
 	}
 
-	return base64.StdEncoding.EncodeToString([]byte(apiKey)), nil
+	return base64.StdEncoding.EncodeToString([]byte(apiKey + ":")), nil
 }
