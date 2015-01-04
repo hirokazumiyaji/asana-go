@@ -1,7 +1,7 @@
 package asana_test
 
 import (
-	"github.com/HirokazuMiyaji/asana-go"
+	"github.com/hirokazumiyaji/asana-go"
 	"io/ioutil"
 	"os"
 	"path"
